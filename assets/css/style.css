@@ -1,0 +1,357 @@
+html { 
+    background: url(/assets/images/bg4.jpg) no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    height:100%;
+    padding: 0;
+    margin: 20px;
+    border:0;
+    font: 12px Arial, Helvetica, sans-serif;
+    color:#fff;
+    margin: 20px auto;
+    text-align: center;
+}
+
+H1 {
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: white;
+    margin-left: 20px;
+}
+
+H3 {
+    margin: 0 40px 0 40px;
+}
+
+A {
+    color: #e9f9a9;
+}
+
+A:visited {
+    color: #e9f9a9;
+}
+
+A:active {
+    color: white;
+}
+
+A:hover {
+    color: white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#page-wrap {
+    display: inline-block;    
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    margin: 10px 30px 10px 30px;
+    background: url(/assets/images/bg4blur.jpg) no-repeat center center fixed #000; 
+    border: 2px solid;
+    border-color: #004000;
+    padding: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    /*środkowanie*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom-right-radius: 20px; 
+    border-top-left-radius: 20px;
+}
+
+#clear {
+    clear: both;
+}
+
+#clear .login_right {
+    float: right;
+}
+
+.leftbreak {
+    clear: both;
+    text-align: left;
+}
+
+/* Odnośniki w Main menu =================================================== */
+
+#main_menu {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main_menu .control {
+    background-color: #B9F9A9;
+}
+
+#main_menu ul {
+    background-color: #000;
+}
+
+#main_menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 155%;
+    list-style: none;
+}
+
+#main_menu a {
+    display: block;
+    margin: 20px;
+    padding: 14px 18px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #9b8748;
+    border-bottom: none;
+    background: #f9e9a9;
+    border-bottom-right-radius: 10px; 
+    border-top-left-radius: 10px;
+}
+
+#main_menu a:hover {
+    background: #9191FF;
+    color: white;
+}
+
+/* Text Message ========================================================== */
+
+#text-message {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#text-message p {
+    display: inline-block;
+    margin: 1% 0.5% 1% 0;
+    padding: 5px 0 5px 0;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 125%;
+}
+
+#text-message .error {
+    display: inline-block;    
+    width: 90%;
+    margin-top: 1%;
+    text-align: center;
+    background-color: #ddffdd;
+    color: red;
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+#text-message .information {
+    display: inline-block;    
+    width: 90%;
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+    background: #339900;
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+/* Form Block ========================================================== */
+
+#form_block {
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 140%;
+    display: block;
+    margin: 20px;
+    width: auto;
+    padding: 14px 18px; 
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #b9d989;
+    background: #e9f9a9;
+    border-bottom-right-radius: 10px; 
+    border-top-left-radius: 10px;
+}
+
+#form_block input[type=text], input[type=password], option {
+    background-color: #f0fff0;
+    border-bottom: 1px solid #f9ffb9;
+    border-left: 1px solid #f9ffb9;
+    border-top: 2px solid #d9e999;
+    border-right: 2px solid #d9e999;
+    font-size: 100%;
+}
+
+#form_block a, input[type=submit] {
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 120%;
+    margin: 20px;
+    padding: 14px 18px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #9b8748;
+    border-bottom: none;
+    background: #f9e9a9;
+    border-bottom-right-radius: 10px; 
+    border-top-left-radius: 10px;
+}
+
+#form_block input[type=submit]:hover {
+    background: #9191FF;
+    color: white;
+}
+
+#form_block a:hover {
+    background: #9191FF;
+    color: white;
+}
+
+#form_block .control {
+    background-color: #B9F9A9;
+}
+
+/* Tabele w formularzu===================================================== */
+
+#form_table td {
+    text-align: left;
+}
+
+/* Tabele z wynikami======================================================= */
+
+#data_table td {
+    text-align: left;
+}
+
+
+/* Odnośniki w tabeli ===================================================== */
+
+#form_block a.table_anchor_ed {
+    background: none;
+    border: none;
+    color: green;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 90%;
+}
+
+#form_block a.table_anchor_ed:hover {
+    background: none;
+    border: none;
+    color: yellow !important;
+}
+
+#form_block a.table_anchor_del {
+    background: none;
+    border: none;
+    color: green;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 90%;
+}
+
+#form_block a.table_anchor_del:hover {
+    background: none;
+    border: none;
+    color: yellow !important;
+}
+
+div#form_block.background_none {
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* Tablesorter ======================================================== */
+
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD; /* kolor tła pod komórkami */
+	margin:10px 0pt 15px;
+	font-size: 14pt;
+	width: 100%;
+        display: table;
+	text-align: left;
+        border-spacing: 0;
+        border-collapse:collapse;
+}
+
+table.tablesorter td, th {
+    border: 1px solid #9b8748;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #a7c942; /* kolor nagłówka niepodświetlonego */
+	font-size: 14pt;
+	padding: 4px;
+        padding-left: 25px;
+        padding-right: 25px;
+}
+
+table.tablesorter thead tr .header {
+	background-image: url('/assets/images/tablesorter/bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+table.tablesorter tbody tr:hover .highlight {
+        background: green;
+        color: white !important;
+}  
+
+table.tablesorter tbody td {
+	color: #3D3D3D; /* kolor czcionki w tabeli */
+	padding: 4px;
+	background-color: #eaf2d3; /* kolor tła wierszy nieparzystych */
+	vertical-align: top;
+}
+
+table.tablesorter tbody tr:nth-child(even) td {
+	background-color:#fff;  /* kolor tła wierszy parzystych */
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url('/assets/images/tablesorter/asc.gif');
+}
+
+table.tablesorter thead tr .headerSortDown {
+	background-image: url('/assets/images/tablesorter/desc.gif');
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+        background-color: #577900; /* kolor nagłówka zaznaczonego */
+        color: white;
+}
+
+table.tablesorter .filters {
+	background-color: #a7c942; /* kolor nagłówka niepodświetlonego */
+}
+
+table.tablesorter .filter {
+    width: 100%;
+    padding-left: 3px;
+    margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

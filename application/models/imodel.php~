@@ -1,0 +1,65 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+/* 
+ * TELEFONISTA - System bazodanowy do ewidencjonowania urządzeń teletechnicznych
+ * używanych na dole Kopalni Węgla Kamiennego.
+ * 
+ * Wyższa Szkoła Biznesu w Dąbrowie GórniczejPraca dyplomowa 
+ * Wydział Zarządzania, Informatyki i Nauk Społecznych
+ * 
+ * Praca dyplomowa
+ * Promotor: dr inż. Paweł Buchwald
+ * Autor: Damian Mrozek
+ */
+
+/*
+ * Interfejs dla modeli
+ * - usermodel
+ * - usersgroupmodel
+ */
+interface iModel {
+    /*
+     * ustawia nazwę tabeli na której obiekt będzie pracował
+     */
+    function set_table($tableName);
+
+    /*
+     * zwraca zawartość całej tabeli
+     */
+    function get();
+
+    /*
+     * zwraca rekord o podanym id
+     */
+    function get_one($id);
+
+    /*
+     * zwraca rekord where $field == $val
+     */
+    function getone_by($field, $val);
+
+    /*
+     * zwraca ilość rekordów w tabeli
+     */
+    function count();
+    
+    /*
+     * zwraca ilosc rekordów where $field == $val
+     */
+    //function count_by($field, $val);
+
+    /*
+     * usuwa rekord o podanym id
+     */
+    function delete($id);
+
+    /*
+     * tworzy nowy rekord na podstawie przesłanych danych
+     */
+    function _new($data);
+
+    /*
+     * aktualizuje rekord na podstawie przesłanych danych
+     */
+    function update($data);
+}

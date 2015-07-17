@@ -1,0 +1,5 @@
+- disable 'get weather information' when quering,
+- acitive enter key confirmation on some inputs,
+- divide weather class, function separation,
+- optimize weather and receiveWeatherBySoap class
+- add countries

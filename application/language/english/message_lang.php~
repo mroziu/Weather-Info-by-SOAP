@@ -1,0 +1,51 @@
+<?php
+/*
+ * GENERAL
+ */
+$lang["msg_database_error"] = array('text' => 'Wystapil blad w bazie danych.', 'type' => 1);
+$lang["msg_bad_location"] = array('text' => 'Podana lokalizacja jest błędna.', 'type' => 1);
+
+/*
+ * LOGIN
+ */
+$lang["msg_user_loged_in_already"] = array('text' => 'You are already logged in. Please logout first.', 'type' => 1);
+$lang["msg_user_loged_in"] = array('text' => 'Welcome %s!', 'type' => 0);
+$lang["msg_user_logged_out"] = array('text' => 'Please come back!', 'type' => 0);
+$lang["msg_user_invalid"] = array('text' => 'Incorrect user or password.', 'type' => 1);
+$lang["msg_user_unauthorized"] = array('text' => 'You found an easter egg! :) Nice try.', 'type' => 1);
+
+/*
+ * TIMEOUT
+ */
+$lang["msg_timeout_not_edited"] = array('text' => 'An error has occurred. Please enter the correct value.', 'type' => 1);
+$lang["msg_timeout_edited"] = array('text' => 'Value successfully updated', 'type' => 0);
+
+/*
+ * CITY
+ */
+$lang["msg_city_not_edited"] = array('text' => 'Data was not updated', 'type' => 0);
+$lang["msg_city_edited"] = array('text' => 'Value successfully updated', 'type' => 0);
+$lang["msg_city_not_unique"] = array('text' => 'City name is not unique!', 'type' => 1);
+$lang["msg_city_deleted"] = array('text' => 'City %s has been deleted.', 'type' => 0);
+$lang["msg_city_created"] = array('text' => 'City %s has been added.', 'type' => 0);
+$lang["msg_city_not_created"] = array('text' => 'City %s has not been addes!', 'type' => 1);
+$lang["msg_city_used"] = array('text' => 'City %s can not be deleted. This city is used in weather table!', 'type' => 1);
+
+/*
+ * WEATHER SERVICES
+ */
+$lang["msg_service_not_edited"] = array('text' => 'Data was not updated', 'type' => 0);
+$lang["msg_service_edited"] = array('text' => 'Value successfully updated', 'type' => 0);
+$lang["msg_service_not_unique"] = array('text' => 'Service name is not unique!', 'type' => 1);
+$lang["msg_service_deleted"] = array('text' => 'Service %s has been deleted.', 'type' => 0);
+$lang["msg_service_created"] = array('text' => 'Service %s has been added.', 'type' => 0);
+$lang["msg_service_not_created"] = array('text' => 'Service %s has not been addes!', 'type' => 1);
+
+/*
+ * OTHER
+ */
+$lang["msg_try_later"] = array('text' => '. Please try later. Read from database.', 'type' => 0);
+$lang["msg_no_data"] = array('text' => '<br>No data for selected city.', 'type' => 0);
+$lang["msg_not_found"] = array('text' => '. City not found. Choose different city', 'type' => 0);
+$lang["msg_offline"] = array('text' => '<b style="color: red;">Server Offline. Data from database.</b>', 'type' => 0);
+$lang["msg_timeout"] = array('text' => '<b style="color: red;">Server Offline. Data from database.</b>', 'type' => 0);
